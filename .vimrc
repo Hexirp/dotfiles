@@ -12,13 +12,13 @@ if has("autocmd")
   filetype plugin on
   "ファイルタイプに合わせたインデントを利用
   filetype indent on
-  "sw=softtabstop, sts=shiftwidth, ts=tabstop, et=expandtabの略
+  "sw=softtabstop, sts=shiftwidth, ts=tabstop, et=expandtab の略
   autocmd FileType java        setlocal sw=4 sts=4 ts=4 et
   autocmd FileType scala       setlocal sw=2 sts=2 ts=2 et
-  autocmd FileType haskell     setlocal sw=1 sts=1 ts=1 et
-  autocmd FileType verilog     setlocal sw=1 sts=1 ts=1 et
+  autocmd FileType haskell     setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType verilog     setlocal sw=2 sts=2 ts=2 et
 
-  autocmd FileType rst         setlocal sw=1 sts=1 ts=1 et
+  autocmd FileType rst         setlocal sw=2 sts=2 ts=2 et
 endif
 
 set colorcolumn=80 "80行目に色を付ける
