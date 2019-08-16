@@ -16,6 +16,7 @@ if has("autocmd")
   autocmd FileType haskell     setlocal sw=2 sts=2 ts=2 et
   autocmd FileType verilog     setlocal sw=2 sts=2 ts=2 et
 
+  autocmd FileType text        setlocal sw=4 sts=4 ts=4 et
   autocmd FileType rst         setlocal sw=2 sts=2 ts=2 et
 endif
 
