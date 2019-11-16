@@ -2,7 +2,7 @@
 	email = Hexirp@users.noreply.github.com
 	name = Hexirp <Hexirp@users.noreply.github.com>
 [alias]
-	it = "!git init && git commit -m \"Initial commit\" --allow-empty"
+  it = "!git init && git commit -m \"Initial commit\" --allow-empty"
   unstage = reset -q HEAD --
   discard = checkout --
   nevermind = !git reset --hard HEAD && git clean -d -f
