@@ -56,3 +56,9 @@
   axe = log --reverse -p -w -S
 [merge]
 	conflictstyle = diff3
+[core]
+	autoCRLF = false
+[init]
+	defaultBranch = master
+[pull]
+	ff = only
