@@ -19,7 +19,8 @@ if has("autocmd")
   autocmd FileType text        setlocal sw=4 sts=4 ts=4 et
   autocmd FileType rst         setlocal sw=2 sts=2 ts=2 et
 
-  autocmd BufNewFile,BufRead *.v  set filetype=coq
+  autocmd BufNewFile,BufRead *.v  setlocal filetype=coq
+  autocmd BufNewFile,BufRead *.v  setlocal nosmartindent
 endif
 
 set colorcolumn=80
