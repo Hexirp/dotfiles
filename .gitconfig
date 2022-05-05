@@ -1,6 +1,6 @@
 [user]
-	email = Hexirp@users.noreply.github.com
-	name = Hexirp <Hexirp@users.noreply.github.com>
+  email = Hexirp@users.noreply.github.com
+  name = Hexirp <Hexirp@users.noreply.github.com>
 [alias]
   it = "!git init && git commit -m \"Initial commit\" --allow-empty"
   unstage = reset -q HEAD --
@@ -55,4 +55,8 @@
   whodunit = blame -wMC
   axe = log --reverse -p -w -S
 [merge]
-	conflictstyle = diff3
+  conflictstyle = diff3
+[core]
+  autoCRLF = false
+[pull]
+  ff = only
