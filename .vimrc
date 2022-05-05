@@ -1,11 +1,10 @@
-set autoindent
-set smartindent
-set smarttab
 set expandtab
-
 set tabstop=2
-set shiftwidth=2
 set softtabstop=0
+set shiftwidth=2
+
+set autoindent
+set smarttab
 
 if has("autocmd")
   filetype plugin on
@@ -16,7 +15,7 @@ if has("autocmd")
   autocmd FileType haskell     setlocal sw=2 sts=2 ts=2 et
   autocmd FileType verilog     setlocal sw=2 sts=2 ts=2 et
 
-  autocmd FileType text        setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType text        setlocal sw=2 sts=2 ts=2 et
   autocmd FileType rst         setlocal sw=2 sts=2 ts=2 et
 endif
 
