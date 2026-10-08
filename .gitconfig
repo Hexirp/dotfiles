@@ -2,7 +2,7 @@
   email = Hexirp@users.noreply.github.com
   name = Hexirp <Hexirp@users.noreply.github.com>
 [alias]
-  initial-commit = commit --allow-empty -m \"Initial commit\" 
+  initial = commit --allow-empty -m \"Initial commit\" 
 [merge]
   conflictstyle = diff3
 [core]
