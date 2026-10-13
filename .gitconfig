@@ -1,11 +1,16 @@
 [user]
-  email = Hexirp@users.noreply.github.com
-  name = Hexirp <Hexirp@users.noreply.github.com>
-[alias]
-  initial = commit --allow-empty -m \"Initial commit\" 
-[merge]
-  conflictstyle = diff3
+	email = 23044528+Hexirp@users.noreply.github.com
+	name = Hexirp <23044528+Hexirp@users.noreply.github.com>
+	signingkey = AEE8590453339361
 [core]
-  autoCRLF = false
+	autocrlf = false
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[merge]
+	conflictstyle = diff3
 [pull]
-  ff = only
+	ff = only
+[alias]
+	initial = commit --allow-empty -m \"Initial commit\"
